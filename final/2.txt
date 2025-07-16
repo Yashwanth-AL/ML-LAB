@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # -------------------------------
 # 3D Surface Plot 
 # -------------------------------
-def plot_3d:
+def plot_3d():
     x = np.linspace(-5, 5, 50)
     y = np.linspace(-5, 5, 50)
     X, Y = np.meshgrid(x, y)
